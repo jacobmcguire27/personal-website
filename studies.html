@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Studies - Jacob</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4; /* Light gray background color */
+            color: #333;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+
+        /* Main Section Styling */
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff; /* White background for the content */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            width: 90%;
+        }
+
+        /* Image Styling */
+        .image {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            max-width: 350px; /* Limit the image size */
+        }
+
+        /* Text Content Styling */
+        .content {
+            flex: 2;
+            text-align: left;
+        }
+
+        h2 {
+            color: #ff5722; /* Bright color for headings */
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Button Styling for Back Link */
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2a9d8f; /* Greenish color for the button */
+            color: white;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #1f7a6d; /* Darker shade on hover */
+        }
+
+        /* Small screen responsiveness */
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image img {
+                max-width: 250px;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Image Section -->
+        <div class="image">
+            <img src="gonzaga.jpg" alt="Gonzaga University">
+        </div>
+        
+        <!-- Text Content Section -->
+        <div class="content">
+            <h2>My Studies</h2>
+            <p>I am currently a sophomore accounting student. I have a strong passion for accounting and finance, and I am determined to pursue a master's degree in accounting after I complete my undergraduate studies.</p>
+            <p>During my time as an accounting student, I am focusing on subjects such as financial accounting, management accounting, and business law. I am also exploring opportunities to specialize in auditing and taxation.</p>
+            <p>My ultimate goal is to gain the skills and knowledge required to work in a top accounting firm and to pursue a successful career in the accounting field.</p>
+
+            <!-- Link Back to Main Page -->
+            <a href="index.html" class="back-button">Back to About Me</a>
+        </div>
+    </div>
+</body>
+</html>

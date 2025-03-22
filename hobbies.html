@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies - Jacob</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e3f2fd; /* Light blue background for the entire page */
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Main Section */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #ffffff; /* White background for content */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Title Styling */
+        h2 {
+            color: #2a9d8f; /* Soft green color for the title */
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        /* Image Section */
+        .images {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .images img {
+            width: 100%;
+            max-width: 180px; /* Reduced image size */
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+            border: 2px solid #ddd; /* Light border around the images */
+        }
+
+        /* Text Content */
+        .content {
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+            margin-top: 20px;
+            background-color: #fafafa; /* Light background for text section */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button Styling for Back Link */
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2a9d8f; /* Greenish color for the button */
+            color: white;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #1f7a6d; /* Darker shade on hover */
+        }
+
+        /* Small screen responsiveness */
+        @media screen and (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            .content {
+                font-size: 1rem;
+            }
+
+            .images {
+                justify-content: center;
+            }
+
+            .images img {
+                max-width: 150px; /* Even smaller images for mobile */
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Title -->
+        <h2>My Hobbies</h2>
+
+        <!-- Image Section -->
+        <div class="images">
+            <img src="football.jpg" alt="Football">
+            <img src="weights.jpg" alt="Weightlifting">
+        </div>
+
+        <!-- Text Content Section -->
+        <div class="content">
+            <p>I have always been an active person, and growing up, I participated in many sports, including basketball, football, soccer, and most recently, powerlifting. Staying active and healthy is important to me, and I enjoy working out and pushing my limits in the gym.</p>
+            <p>In addition to staying physically fit, I also love to have fun with my friends. Whether it’s going to the beach, hanging out at a park, or trying something new, I always make time to enjoy life and create memories with those I care about.</p>
+            <p>Overall, sports and physical activities are an important part of my life, and I am passionate about maintaining a healthy lifestyle and having fun while doing it!</p>
+
+            <!-- Back Button -->
+            <a href="index.html" class="back-button">Back to About Me</a>
+        </div>
+    </div>
+</body>
+</html>

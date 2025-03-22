@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Jacob</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('../images/palmtrees.jpg'); /* Ensure the correct path to the image */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+
+        /* Main Section Styling */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Intro Section */
+        .intro {
+            background-color: rgba(255, 255, 255, 0.8); /* Light transparent background */
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #2a9d8f;
+            font-size: 2rem; /* Smaller size for the heading */
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Table to align text and image */
+        .intro table {
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Image styling for palmtrees.jpg */
+        .intro img {
+            margin-top: 20px;
+            width: 90%; /* Increased width for a larger image */
+            height: auto;
+            max-width: 500px; /* Increased max-width for a larger image */
+            border-radius: 10px;
+        }
+
+        /* Table of Links */
+        .links {
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 20px;
+            text-align: center;
+        }
+
+        /* Styling for each link cell */
+        .link-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            height: 200px;
+            width: 200px;
+        }
+
+        .link-box:hover {
+            background-color: #2a9d8f;
+            color: white;
+        }
+
+        .link-box a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            color: #2a9d8f;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        /* Color Styling for Different Sections */
+        .link-box:nth-child(1) {
+            background-color: #ffeb3b; /* Yellow for Hobbies */
+        }
+
+        .link-box:nth-child(2) {
+            background-color: #ff5722; /* Orange for Where I'm From */
+        }
+
+        .link-box:nth-child(3) {
+            background-color: #4caf50; /* Green for My Studies */
+        }
+
+        /* Small screen responsiveness */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem; /* Smaller size for small screens */
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .link-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Intro Section with Table for Text and Image -->
+        <section class="intro">
+            <table>
+                <tr>
+                    <td>
+                        <h2>Hi, My name is Jacob</h2>
+                        <p>On these pages, you will find out more about where I'm from, my hobbies, and my studies.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Image Added Here -->
+                        <img src="palmtrees.jpg" alt="Palmtrees Image">
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Table of Links to Other Pages with Colors -->
+        <section class="links">
+            <table>
+                <tr>
+                    <td class="link-box">
+                        <a href="hobbies.html">
+                            <h3>Hobbies</h3>
+                            <p>Learn more about my hobbies.</p>
+                        </a>
+                    </td>
+                    <td class="link-box">
+                        <a href="origin.html">
+                            <h3>Where I'm From</h3>
+                            <p>Find out about my background and where I grew up.</p>
+                        </a>
+                    </td>
+                    <td class="link-box">
+                        <a href="studies.html">
+                            <h3>My Studies</h3>
+                            <p>Discover what I am studying and my educational journey.</p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
